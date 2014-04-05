@@ -1,0 +1,6 @@
+{application, rebar_lol_plugin,
+ [{description, "rebar plugin for compiling lol source code"},
+  {vsn, git},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []}]}.
